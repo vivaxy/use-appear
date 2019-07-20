@@ -2,6 +2,16 @@
   "name": "use-appear",
   "version": "0.1.0",
   "description": "⚛️React useAppear hook.",
+  "keywords": [
+    "react",
+    "hooks",
+    "use-appear",
+    "appear",
+    "hook",
+    "intersection-observer",
+    "use",
+    "is-in-view"
+  ],
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
