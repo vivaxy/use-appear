@@ -1,8 +1,15 @@
-# use-appear
+# useAppear
+
+[![Build Status][travis-image]][travis-url]
+[![NPM Version][npm-version-image]][npm-url]
+[![NPM Downloads][npm-downloads-image]][npm-url]
+[![MIT License][license-image]][license-url]
+[![Standard Version][standard-version-image]][standard-version-url]
+[![Codecov][codecov-image]][codecov-url]
 
 ⚛️React useAppear hook.
 
-Created by [create-n](https://github.com/vivaxy/create-n).
+_(Created by [create-n](https://github.com/vivaxy/create-n).)_
 
 # Install
 
@@ -28,12 +35,6 @@ export default function AppearElement() {
 }
 ```
 
-[![Build Status][travis-image]][travis-url]
-[![NPM Version][npm-version-image]][npm-url]
-[![NPM Downloads][npm-downloads-image]][npm-url]
-[![MIT License][license-image]][license-url]
-[![Standard Version][standard-version-image]][standard-version-url]
-[![Codecov][codecov-image]][codecov-url]
 
 [travis-image]: https://img.shields.io/travis/vivaxy/use-appear.svg?style=flat-square
 [travis-url]: https://travis-ci.org/vivaxy/use-appear
