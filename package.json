@@ -15,8 +15,8 @@
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
-    "demo": "yarn build && cd demo && yarn start && cd ..",
-    "build": "tsc && cp -r lib demo/src",
+    "demo": "yarn build && cp -r lib demo/src && cd demo && yarn start && cd ..",
+    "build": "tsc",
     "test": "jest",
     "coverage": "jest --collect-coverage",
     "release:beta": "npm run test && npm run build && standard-version --prerelease beta && npm publish --tag beta && git push --follow-tags",
