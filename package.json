@@ -15,6 +15,7 @@
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
+    "demo": "yarn build && cd demo && yarn start && cd ..",
     "build": "tsc && cp -r lib demo/src",
     "test": "jest",
     "coverage": "jest --collect-coverage",
@@ -53,16 +54,21 @@
     "@commitlint/cli": "^8.1.0",
     "@commitlint/config-conventional": "^8.1.0",
     "@types/jest": "^24.0.15",
+    "@types/react": "^16.8.23",
     "husky": "^3.0.1",
     "jest": "^24.8.0",
     "lint-staged": "^9.2.0",
     "prettier": "^1.18.2",
+    "react": "^16.8.6",
     "standard-version": "^6.0.1",
     "ts-jest": "^24.0.2",
     "typescript": "^3.5.3"
   },
+  "peerDependencies": {
+    "@types/react": "*",
+    "react": "*"
+  },
   "dependencies": {
-    "@types/react": "^16.8.23",
-    "react": "^16.8.6"
+    "appear-event": "^0.2.0"
   }
 }
