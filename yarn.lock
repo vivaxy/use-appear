@@ -656,10 +656,10 @@ anymatch@^2.0.0:
     micromatch "^3.1.4"
     normalize-path "^2.1.1"
 
-appear-event@^0.2.0:
-  version "0.2.0"
-  resolved "https://registry.npmjs.org/appear-event/-/appear-event-0.2.0.tgz#b9136103e9739bd358d9277c4938ecb9c4650318"
-  integrity sha512-kB1xsRZTHbXiuDZzIfoRlTCq0mZAdG4+jr+wqARqzvbk8TUPulykmmiAz/OFGguDMIdGNjsnfNTsVCGCdFyofw==
+appear-event@^0.3.0:
+  version "0.3.2"
+  resolved "https://registry.npmjs.org/appear-event/-/appear-event-0.3.2.tgz#2910b3d37ada8d248fcd5d12de92cba2369d3308"
+  integrity sha512-0Fm9dI+Zb5Pfu3NOHXOxrE9UnSRrtfgkcjdc1K/YAI/o6HSsPLLGrzoSk/soPxQs0lfC85N7yE00VlYCiP7dAQ==
   dependencies:
     "@medv/finder" "^1.1.2"
     intersection-observer "^0.7.0"
