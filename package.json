@@ -69,6 +69,6 @@
     "react": "*"
   },
   "dependencies": {
-    "appear-event": "^0.2.0"
+    "appear-event": "^0.3.0"
   }
 }
